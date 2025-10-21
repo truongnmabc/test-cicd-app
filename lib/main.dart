@@ -16,6 +16,9 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       home: const MyHomePage(title: 'Ứng dụng Flutter đơn giản'),
+
+
+      debugShowCheckedModeBanner: false,
     );
   }
 }
